@@ -35,5 +35,3 @@ output = model.predict(transformed_data)
 
 if state:
     st.text(f'output = {'Good Review' if output ==1 else 'Bad Review'}')
-else:
-    st.text('stable')
